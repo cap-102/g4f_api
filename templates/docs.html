@@ -1,0 +1,565 @@
+<html coupert-item="9AF8D9A4E502F3784AD24272D81F0381">
+    <head>
+        <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='swagger-ui.css') }}" />
+        <title>Docs · Caportabow API</title>
+        <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    </head>
+    <body style="background-color: #f0f0f0;">
+        <div id="swagger-ui">
+            <div class="swagger-ui">
+                <div>
+                    <div class="information-container wrapper">
+                        <section class="block col-12">
+                            <div class="info">
+                                <hgroup class="main">
+                                    <h2 class="title">
+                                        CaportabowAPI
+                                        <span>
+                                            <small>
+                                                <pre class="version"> 0.1.0 </pre>
+                                            </small>
+                                        </span>
+                                    </h2>
+                                </hgroup>
+                            </div>
+                        </section>
+                    </div>
+                    <div></div>
+                    <div class="wrapper">
+                        <section class="block col-12 block-desktop col-12-desktop">
+                            <div>
+                                <span>
+                                    <div class="opblock-tag-section is-open">
+                                        <div class="no-margin">
+                                            <div class="operation-tag-content">
+                                                <span>
+                                                    <div class="opblock opblock-post is-open" id="operations-default-handle_data_api_post">
+                                                        <div class="opblock-summary opblock-summary-post">
+                                                            <button aria-label="post &ZeroWidthSpace;/api" aria-expanded="true" class="opblock-summary-control">
+                                                                <span class="opblock-summary-method">POST</span>
+                                                                <span class="opblock-summary-path" data-path="/api">
+                                                                    <a class="nostyle" href="#/default/handle_data_api_post"><span>/api/gpt-3</span></a>
+                                                                </span>
+                                                                <div class="opblock-summary-description">ask ChatGPT 3</div>
+                                                            </button>
+                                                            <button aria-label="post &ZeroWidthSpace;/api" class="opblock-control-arrow" aria-expanded="true" tabindex="-1"></button>
+                                                        </div>
+                                                        <div class="no-margin">
+                                                            <div class="opblock-body">
+                                                                <div class="opblock-section">
+                                                                    <div class="opblock-section opblock-section-request-body">
+                                                                        <div class="opblock-section-header">
+                                                                            <h4 class="opblock-title parameter__name required">Request body</h4>
+                                                                            <label>
+                                                                                <div class="content-type-wrapper body-param-content-type">
+                                                                                    <select aria-label="Request content type" class="content-type">
+                                                                                        <option value="application/json">application/json</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="opblock-description-wrapper">
+                                                                            <div>
+                                                                                <div class="model-example">
+                                                                                    <ul class="tab" role="tablist">
+                                                                                        <li class="tabitem active" role="presentation">
+                                                                                            <button aria-controls="vgSHHSY=" aria-selected="true" class="tablinks" data-name="example" id="JvES488=" role="tab">Example Value</button>
+                                                                                        </li>
+                                                                                        <li class="tabitem" role="presentation">
+                                                                                            <button aria-controls="XykF3/4=" aria-selected="false" class="tablinks" data-name="model" id="ubygzEc=" role="tab">Schema</button>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                    <div aria-hidden="false" aria-labelledby="JvES488=" data-name="examplePanel" id="vgSHHSY=" role="tabpanel" tabindex="0">
+                                                                                        <div class="highlight-code">
+                                                                                            <pre
+                                                                                                class="body-param__example microlight"
+                                                                                                style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                            ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"query"</span><span>: </span><span style="color: rgb(162, 252, 162);">"string"</span><span>,
+</span><span></span><span>  </span><span class="hljs-attr">"history"</span><span>: </span><span style="color: rgb(162, 162, 252);">list</span><span> | </span><span style="color: rgb(211, 99, 99);">False</span><span>,
+</span><span>  </span><span class="hljs-attr">"token"</span><span>: </span><span style="color: rgb(162, 252, 162);">"xx-YOUR_TOKEN"</span><span>
+</span>}</code></pre>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="execute-wrapper"></div>
+                                                                <div class="responses-wrapper">
+                                                                    <div class="opblock-section-header">
+                                                                        <h4>Responses</h4>
+                                                                    </div>
+                                                                    <div class="responses-inner">
+                                                                        <table aria-live="polite" class="responses-table" id="post_api_responses" role="region">
+                                                                            <thead>
+                                                                                <tr class="responses-header">
+                                                                                    <td class="col_header response-col_status">Code</td>
+                                                                                    <td class="col_header response-col_description">Description</td>
+                                                                                    <td class="col col_header response-col_links">Links</td>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr class="response" data-code="200">
+                                                                                    <td class="response-col_status">200</td>
+                                                                                    <td class="response-col_description">
+                                                                                        <div class="response-col_description__inner">
+                                                                                            <div class="renderedMarkdown">
+                                                                                                <p>Successful Response</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <section class="response-controls">
+                                                                                            <div class="response-control-media-type response-control-media-type--accept-controller">
+                                                                                                <small class="response-control-media-type__title">Media type</small>
+                                                                                                <div class="content-type-wrapper">
+                                                                                                    <select aria-label="Media Type" class="content-type">
+                                                                                                        <option value="application/json">application/json</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                                <small class="response-control-media-type__accept-message">Controls <code>Accept</code> header.</small>
+                                                                                            </div>
+                                                                                        </section>
+                                                                                        <div class="model-example">
+                                                                                            <ul class="tab" role="tablist">
+                                                                                                <li class="tabitem active" role="presentation">
+                                                                                                    <button aria-controls="9FP69Ws=" aria-selected="true" class="tablinks" data-name="example" id="6Ws+4LY=" role="tab">Example Value</button>
+                                                                                                </li>
+                                                                                                <li class="tabitem" role="presentation">
+                                                                                                    <button aria-controls="f2QUqZ8=" aria-selected="false" class="tablinks" data-name="model" id="6JSgP8Y=" role="tab">Schema</button>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <div aria-hidden="false" aria-labelledby="6Ws+4LY=" data-name="examplePanel" id="9FP69Ws=" role="tabpanel" tabindex="0">
+                                                                                                <div>
+                                                                                                    <div class="highlight-code">
+                                                                                                        <pre
+                                                                                                            class="example microlight"
+                                                                                                            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                                        ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"answer"</span><span>: </span><span style="color: rgb(162, 252, 162);">"string"</span><span>,
+</span><span></span><span>  </span><span class="hljs-attr">"error"</span><span>: </span><span style="color: rgb(211, 99, 99);">False</span><span>,
+</span><span>  </span><span class="hljs-attr">"history"</span><span>: </span><span style="color: rgb(162, 162, 252);">CHATGPT HISTORY (LIST)</span><span>
+</span>}</code></pre>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="response-col_links"><i>No links</i></td>
+                                                                                </tr>
+                                                                                <tr data-code="400" class="response">
+                                                                                    <td class="response-col_status">400</td>
+                                                                                    <td class="response-col_description">
+                                                                                        <div class="response-col_description__inner">
+                                                                                            <div class="renderedMarkdown">
+                                                                                                <p>Attribute Error</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <section class="response-controls">
+                                                                                            <div class="response-control-media-type">
+                                                                                                <small class="response-control-media-type__title">Media type</small>
+                                                                                                <div class="content-type-wrapper">
+                                                                                                    <select aria-label="Media Type" class="content-type">
+                                                                                                        <option value="application/json">application/json</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </section>
+                                                                                        <div class="model-example">
+                                                                                            <ul class="tab" role="tablist">
+                                                                                                <li class="tabitem active" role="presentation">
+                                                                                                    <button aria-controls="hXijlP4=" aria-selected="true" class="tablinks" data-name="example" id="ZKMFZU4=" role="tab">Example Value</button>
+                                                                                                </li>
+                                                                                                <li class="tabitem" role="presentation">
+                                                                                                    <button aria-controls="g1y0OQQ=" aria-selected="false" class="tablinks" data-name="model" id="GU03jeM=" role="tab">Schema</button>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <div aria-hidden="false" aria-labelledby="ZKMFZU4=" data-name="examplePanel" id="hXijlP4=" role="tabpanel" tabindex="0">
+                                                                                                <div>
+                                                                                                    <div class="highlight-code">
+                                                                                                        <pre
+                                                                                                            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                                            class="example microlight"
+                                                                                                        ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"error"</span><span>: </span><span style="color: rgb(162, 252, 162);">"Missing required fields. [WHAT FIELDS]"</span><span>
+</span>}</code></pre>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="response-col_links"><i>No links</i></td>
+                                                                                </tr>
+                                                                                <tr class="response" data-code="422">
+                                                                                    <td class="response-col_status">422</td>
+                                                                                    <td class="response-col_description">
+                                                                                        <div class="response-col_description__inner">
+                                                                                            <div class="renderedMarkdown">
+                                                                                                <p>Activation Error</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <section class="response-controls">
+                                                                                            <div class="response-control-media-type">
+                                                                                                <small class="response-control-media-type__title">Media type</small>
+                                                                                                <div class="content-type-wrapper">
+                                                                                                    <select aria-label="Media Type" class="content-type">
+                                                                                                        <option value="application/json">application/json</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </section>
+                                                                                        <div class="model-example">
+                                                                                            <ul class="tab" role="tablist">
+                                                                                                <li class="tabitem active" role="presentation">
+                                                                                                    <button aria-controls="hXijlP4=" aria-selected="true" class="tablinks" data-name="example" id="ZKMFZU4=" role="tab">Example Value</button>
+                                                                                                </li>
+                                                                                                <li class="tabitem" role="presentation">
+                                                                                                    <button aria-controls="g1y0OQQ=" aria-selected="false" class="tablinks" data-name="model" id="GU03jeM=" role="tab">Schema</button>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <div aria-hidden="false" aria-labelledby="ZKMFZU4=" data-name="examplePanel" id="hXijlP4=" role="tabpanel" tabindex="0">
+                                                                                                <div>
+                                                                                                    <div class="highlight-code">
+                                                                                                        <pre
+                                                                                                            class="example microlight"
+                                                                                                            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                                        ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"error"</span><span>: </span><span style="color: rgb(162, 252, 162);">"Wrong token."</span><span>
+</span>}</code></pre>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="response-col_links"><i>No links</i></td>
+                                                                                </tr>
+                                                                                <tr data-code="500" class="response">
+                                                                                    <td class="response-col_status">500</td>
+                                                                                    <td class="response-col_description">
+                                                                                        <div class="response-col_description__inner">
+                                                                                            <div class="renderedMarkdown">
+                                                                                                <p>Unknown Error</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <section class="response-controls">
+                                                                                            <div class="response-control-media-type">
+                                                                                                <small class="response-control-media-type__title">Media type</small>
+                                                                                                <div class="content-type-wrapper">
+                                                                                                    <select aria-label="Media Type" class="content-type">
+                                                                                                        <option value="application/json">application/json</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </section>
+                                                                                        <div class="model-example">
+                                                                                            <ul class="tab" role="tablist">
+                                                                                                <li class="tabitem active" role="presentation">
+                                                                                                    <button aria-controls="hXijlP4=" aria-selected="true" class="tablinks" data-name="example" id="ZKMFZU4=" role="tab">Example Value</button>
+                                                                                                </li>
+                                                                                                <li class="tabitem" role="presentation">
+                                                                                                    <button aria-controls="g1y0OQQ=" aria-selected="false" class="tablinks" data-name="model" id="GU03jeM=" role="tab">Schema</button>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <div aria-hidden="false" aria-labelledby="ZKMFZU4=" data-name="examplePanel" id="hXijlP4=" role="tabpanel" tabindex="0">
+                                                                                                <div>
+                                                                                                    <div class="highlight-code">
+                                                                                                        <pre
+                                                                                                            class="example microlight"
+                                                                                                            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                                        ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"error"</span><span>: </span><span style="color: rgb(162, 252, 162);">"Unknown error."</span><span>
+</span>}</code></pre>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="response-col_links"><i>No links</i></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="wrapper">
+                        <section class="block col-12 block-desktop col-12-desktop">
+                            <div>
+                                <span>
+                                    <div class="opblock-tag-section is-open">
+                                        <div class="no-margin">
+                                            <div class="operation-tag-content">
+                                                <span>
+                                                    <div class="opblock opblock-post is-open" id="operations-default-handle_data_api_post">
+                                                        <div class="opblock-summary opblock-summary-post">
+                                                            <button aria-label="post &ZeroWidthSpace;/api" aria-expanded="true" class="opblock-summary-control">
+                                                                <span class="opblock-summary-method">POST</span>
+                                                                <span class="opblock-summary-path" data-path="/api">
+                                                                    <a class="nostyle" href="#/default/handle_data_api_post"><span>/api/gpt-4</span></a>
+                                                                </span>
+                                                                <div class="opblock-summary-description">ask ChatGPT 4</div>
+                                                            </button>
+                                                            <button aria-label="post &ZeroWidthSpace;/api" class="opblock-control-arrow" aria-expanded="true" tabindex="-1"></button>
+                                                        </div>
+                                                        <div class="no-margin">
+                                                            <div class="opblock-body">
+                                                                <div class="opblock-section">
+                                                                    <div class="opblock-section opblock-section-request-body">
+                                                                        <div class="opblock-section-header">
+                                                                            <h4 class="opblock-title parameter__name required">Request body</h4>
+                                                                            <label>
+                                                                                <div class="content-type-wrapper body-param-content-type">
+                                                                                    <select aria-label="Request content type" class="content-type">
+                                                                                        <option value="application/json">application/json</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="opblock-description-wrapper">
+                                                                            <div>
+                                                                                <div class="model-example">
+                                                                                    <ul class="tab" role="tablist">
+                                                                                        <li class="tabitem active" role="presentation">
+                                                                                            <button aria-controls="vgSHHSY=" aria-selected="true" class="tablinks" data-name="example" id="JvES488=" role="tab">Example Value</button>
+                                                                                        </li>
+                                                                                        <li class="tabitem" role="presentation">
+                                                                                            <button aria-controls="XykF3/4=" aria-selected="false" class="tablinks" data-name="model" id="ubygzEc=" role="tab">Schema</button>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                    <div aria-hidden="false" aria-labelledby="JvES488=" data-name="examplePanel" id="vgSHHSY=" role="tabpanel" tabindex="0">
+                                                                                        <div class="highlight-code">
+                                                                                            <pre
+                                                                                                class="body-param__example microlight"
+                                                                                                style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                            ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"query"</span><span>: </span><span style="color: rgb(162, 252, 162);">"string"</span><span>,
+</span><span></span><span>  </span><span class="hljs-attr">"history"</span><span>: </span><span style="color: rgb(162, 162, 252);">list</span><span> | </span><span style="color: rgb(211, 99, 99);">False</span><span>,
+</span><span>  </span><span class="hljs-attr">"token"</span><span>: </span><span style="color: rgb(162, 252, 162);">"xx-YOUR_TOKEN"</span><span>
+</span>}</code></pre>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="execute-wrapper"></div>
+                                                                <div class="responses-wrapper">
+                                                                    <div class="opblock-section-header">
+                                                                        <h4>Responses</h4>
+                                                                    </div>
+                                                                    <div class="responses-inner">
+                                                                        <table aria-live="polite" class="responses-table" id="post_api_responses" role="region">
+                                                                            <thead>
+                                                                                <tr class="responses-header">
+                                                                                    <td class="col_header response-col_status">Code</td>
+                                                                                    <td class="col_header response-col_description">Description</td>
+                                                                                    <td class="col col_header response-col_links">Links</td>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr class="response" data-code="200">
+                                                                                    <td class="response-col_status">200</td>
+                                                                                    <td class="response-col_description">
+                                                                                        <div class="response-col_description__inner">
+                                                                                            <div class="renderedMarkdown">
+                                                                                                <p>Successful Response</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <section class="response-controls">
+                                                                                            <div class="response-control-media-type response-control-media-type--accept-controller">
+                                                                                                <small class="response-control-media-type__title">Media type</small>
+                                                                                                <div class="content-type-wrapper">
+                                                                                                    <select aria-label="Media Type" class="content-type">
+                                                                                                        <option value="application/json">application/json</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                                <small class="response-control-media-type__accept-message">Controls <code>Accept</code> header.</small>
+                                                                                            </div>
+                                                                                        </section>
+                                                                                        <div class="model-example">
+                                                                                            <ul class="tab" role="tablist">
+                                                                                                <li class="tabitem active" role="presentation">
+                                                                                                    <button aria-controls="9FP69Ws=" aria-selected="true" class="tablinks" data-name="example" id="6Ws+4LY=" role="tab">Example Value</button>
+                                                                                                </li>
+                                                                                                <li class="tabitem" role="presentation">
+                                                                                                    <button aria-controls="f2QUqZ8=" aria-selected="false" class="tablinks" data-name="model" id="6JSgP8Y=" role="tab">Schema</button>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <div aria-hidden="false" aria-labelledby="6Ws+4LY=" data-name="examplePanel" id="9FP69Ws=" role="tabpanel" tabindex="0">
+                                                                                                <div>
+                                                                                                    <div class="highlight-code">
+                                                                                                        <pre
+                                                                                                            class="example microlight"
+                                                                                                            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                                        ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"answer"</span><span>: </span><span style="color: rgb(162, 252, 162);">"string"</span><span>,
+</span><span></span><span>  </span><span class="hljs-attr">"error"</span><span>: </span><span style="color: rgb(211, 99, 99);">False</span><span>,
+</span><span>  </span><span class="hljs-attr">"history"</span><span>: </span><span style="color: rgb(162, 162, 252);">CHATGPT HISTORY (LIST)</span><span>
+</span>}</code></pre>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="response-col_links"><i>No links</i></td>
+                                                                                </tr>
+                                                                                <tr data-code="400" class="response">
+                                                                                    <td class="response-col_status">400</td>
+                                                                                    <td class="response-col_description">
+                                                                                        <div class="response-col_description__inner">
+                                                                                            <div class="renderedMarkdown">
+                                                                                                <p>Attribute Error</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <section class="response-controls">
+                                                                                            <div class="response-control-media-type">
+                                                                                                <small class="response-control-media-type__title">Media type</small>
+                                                                                                <div class="content-type-wrapper">
+                                                                                                    <select aria-label="Media Type" class="content-type">
+                                                                                                        <option value="application/json">application/json</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </section>
+                                                                                        <div class="model-example">
+                                                                                            <ul class="tab" role="tablist">
+                                                                                                <li class="tabitem active" role="presentation">
+                                                                                                    <button aria-controls="hXijlP4=" aria-selected="true" class="tablinks" data-name="example" id="ZKMFZU4=" role="tab">Example Value</button>
+                                                                                                </li>
+                                                                                                <li class="tabitem" role="presentation">
+                                                                                                    <button aria-controls="g1y0OQQ=" aria-selected="false" class="tablinks" data-name="model" id="GU03jeM=" role="tab">Schema</button>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <div aria-hidden="false" aria-labelledby="ZKMFZU4=" data-name="examplePanel" id="hXijlP4=" role="tabpanel" tabindex="0">
+                                                                                                <div>
+                                                                                                    <div class="highlight-code">
+                                                                                                        <pre
+                                                                                                            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                                            class="example microlight"
+                                                                                                        ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"error"</span><span>: </span><span style="color: rgb(162, 252, 162);">"Missing required fields. [WHAT FIELDS]"</span><span>
+</span>}</code></pre>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="response-col_links"><i>No links</i></td>
+                                                                                </tr>
+                                                                                <tr class="response" data-code="422">
+                                                                                    <td class="response-col_status">422</td>
+                                                                                    <td class="response-col_description">
+                                                                                        <div class="response-col_description__inner">
+                                                                                            <div class="renderedMarkdown">
+                                                                                                <p>Activation Error</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <section class="response-controls">
+                                                                                            <div class="response-control-media-type">
+                                                                                                <small class="response-control-media-type__title">Media type</small>
+                                                                                                <div class="content-type-wrapper">
+                                                                                                    <select aria-label="Media Type" class="content-type">
+                                                                                                        <option value="application/json">application/json</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </section>
+                                                                                        <div class="model-example">
+                                                                                            <ul class="tab" role="tablist">
+                                                                                                <li class="tabitem active" role="presentation">
+                                                                                                    <button aria-controls="hXijlP4=" aria-selected="true" class="tablinks" data-name="example" id="ZKMFZU4=" role="tab">Example Value</button>
+                                                                                                </li>
+                                                                                                <li class="tabitem" role="presentation">
+                                                                                                    <button aria-controls="g1y0OQQ=" aria-selected="false" class="tablinks" data-name="model" id="GU03jeM=" role="tab">Schema</button>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <div aria-hidden="false" aria-labelledby="ZKMFZU4=" data-name="examplePanel" id="hXijlP4=" role="tabpanel" tabindex="0">
+                                                                                                <div>
+                                                                                                    <div class="highlight-code">
+                                                                                                        <pre
+                                                                                                            class="example microlight"
+                                                                                                            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                                        ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"error"</span><span>: </span><span style="color: rgb(162, 252, 162);">"Wrong token."</span><span>
+</span>}</code></pre>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="response-col_links"><i>No links</i></td>
+                                                                                </tr>
+                                                                                <tr data-code="500" class="response">
+                                                                                    <td class="response-col_status">500</td>
+                                                                                    <td class="response-col_description">
+                                                                                        <div class="response-col_description__inner">
+                                                                                            <div class="renderedMarkdown">
+                                                                                                <p>Unknown Error</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <section class="response-controls">
+                                                                                            <div class="response-control-media-type">
+                                                                                                <small class="response-control-media-type__title">Media type</small>
+                                                                                                <div class="content-type-wrapper">
+                                                                                                    <select aria-label="Media Type" class="content-type">
+                                                                                                        <option value="application/json">application/json</option>
+                                                                                                    </select>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </section>
+                                                                                        <div class="model-example">
+                                                                                            <ul class="tab" role="tablist">
+                                                                                                <li class="tabitem active" role="presentation">
+                                                                                                    <button aria-controls="hXijlP4=" aria-selected="true" class="tablinks" data-name="example" id="ZKMFZU4=" role="tab">Example Value</button>
+                                                                                                </li>
+                                                                                                <li class="tabitem" role="presentation">
+                                                                                                    <button aria-controls="g1y0OQQ=" aria-selected="false" class="tablinks" data-name="model" id="GU03jeM=" role="tab">Schema</button>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                            <div aria-hidden="false" aria-labelledby="ZKMFZU4=" data-name="examplePanel" id="hXijlP4=" role="tabpanel" tabindex="0">
+                                                                                                <div>
+                                                                                                    <div class="highlight-code">
+                                                                                                        <pre
+                                                                                                            class="example microlight"
+                                                                                                            style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(51, 51, 51); color: white;"
+                                                                                                        ><code class="language-json" style="white-space: pre;"><span>{
+</span><span>  </span><span class="hljs-attr">"error"</span><span>: </span><span style="color: rgb(162, 252, 162);">"Unknown error."</span><span>
+</span>}</code></pre>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td class="response-col_links"><i>No links</i></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </span>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
