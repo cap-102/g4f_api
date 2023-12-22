@@ -1,0 +1,7 @@
+# Ignore test.py
+test.py
+
+# Ignore directories
+.git/
+.idea/
+__pycache__/

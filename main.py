@@ -3,6 +3,8 @@ from flask import Flask, request, jsonify, render_template
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
+# main script
+
 app = Flask(__name__)
 limiter = Limiter(
     get_remote_address,
@@ -20,6 +22,11 @@ def home():
 @app.route('/getkey')
 def getkey():
     return render_template('getkey.html')
+
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 
 @app.route('/dev/genkey')
